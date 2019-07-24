@@ -1,0 +1,25 @@
+/* Top Nav */
+
+#topNav{
+background-color: #272524;  
+height: 45px;  
+}
+
+
+#topNav ul li{
+  padding: 0px 9px 0px 9px;
+  margin: 12px 5px 5px 0px;
+}
+
+/* EA logo */
+#topNav ul li:nth-child(3){
+  padding: 0px 0px 0px 0px;
+  margin: 10px 3px 5px 0px;
+}
+
+.img-responsive{
+  height: 40px;  
+}
+
+/* end of Top Nav */
+
