@@ -23,3 +23,20 @@ height: 45px;
 
 /* end of Top Nav */
 
+
+
+/*  Footer section */
+
+/*  Top Footer */
+#topFooter{
+  background-color: #2c383d;
+  padding: 45px 55px 25px;
+  color: #a3a3a3;  
+}
+
+#company{
+  font-size:25px; 
+}
+
+
+/*  end of Top Footer */
