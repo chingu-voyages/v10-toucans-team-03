@@ -66,10 +66,11 @@ height: 45px;
 .links li {
   display: inline-block;
   padding: 15px;
+  font-weight: bold;
 }
 
-#rowOne{
-  margin: 0px 145px;
+#rowOne, #rowTwo, #rowThree{
+  margin: 0px 145px; 
 }
 
 
