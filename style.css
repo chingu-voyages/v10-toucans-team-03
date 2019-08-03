@@ -35,7 +35,9 @@ height: 45px;
 }
 
 #company{
-  font-size:25px; 
+  font-size:25px;
+  border-bottom: solid 0.5px;
+  padding: 8px 1px;
 }
 
 
