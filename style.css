@@ -22,6 +22,36 @@ height: 45px;
 }
 
 /* end of Top Nav */
+/* Featured News Cards */
+.featured_news  {
+  background-color: #131212;
+}
+.heading_fn {
+  text-align: center;
+  
+}
+.container {
+  margin: 0;
+  padding: 15 rem;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.eyebrow {
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  text-transform: uppercase;
+  margin: 3px 0px 0px;
+  font-weight: 900;
+}
+.card_title  {
+  font-size: 20px;
+  font-family: Helvetica Neue;
+  letter-spacing: .38px;
+  font-weight: 900;
+  color: #f3f3f5;
+  
+}
+/* End of Featured News Card*/
 
 
 
