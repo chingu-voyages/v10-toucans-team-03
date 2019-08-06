@@ -2,7 +2,7 @@
 
 #topNav{
 background-color: #272524;  
-height: 45px;  
+height: 55px;  
 }
 
 
@@ -108,7 +108,7 @@ height: 45px;
 
 /* Dropdown/Select */
 .custom-select{
-  width: 200px;
+  width: 150px;
 }
 
 
