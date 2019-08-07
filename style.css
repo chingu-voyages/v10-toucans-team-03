@@ -2,7 +2,7 @@
 
 #topNav{
 background-color: #272524;  
-height: 55px;  
+height: 45px;  
 }
 
 
@@ -48,12 +48,15 @@ height: 55px;
   font-family: Helvetica Neue;
   letter-spacing: .38px;
   font-weight: 900;
-  color: #f3f3f5;  
-} 
+  color: #f3f3f5;
+  
+}
 /* End of Featured News Card*/
 
 
+
 /* Div/Section 3 */
+
 .three{
   text-align:center;
   padding: 55px 0px 65px 0px;
@@ -78,10 +81,11 @@ height: 55px;
 
 #buttonTwo{
   background-color: black;
-  color:orange;
-  border:solid orange;
+  color:white;
+  border:solid white;
 }
-/*  end of Div/Section 3 section */
+
+/* end of Div/Section 3 */
 
 
 
@@ -138,7 +142,7 @@ height: 55px;
 
 /* Dropdown/Select */
 .custom-select{
-  width: 150px !important;
+  width: 200px;
 }
 
 
