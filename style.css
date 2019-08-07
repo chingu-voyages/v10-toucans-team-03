@@ -54,6 +54,38 @@ height: 45px;
 /* End of Featured News Card*/
 
 
+/* Div/Section 3 */
+.three{
+  text-align:center;
+  padding: 55px 0px 65px 0px;
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+.three h1,h5{
+  padding:15px;
+}
+
+#img-title{
+  height: 118px;
+}
+
+.btn-warning{
+ border: solid orange;
+ background-color: orange; 
+ color: white; 
+}
+
+#buttonTwo{
+  background-color: black;
+  color:orange;
+  border:solid orange;
+}
+
+/* end of Div/Section 3 */
+
+
 
 /*  Footer section */
 
