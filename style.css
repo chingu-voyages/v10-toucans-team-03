@@ -138,7 +138,7 @@ height: 55px;
 
 /* Dropdown/Select */
 .custom-select{
-  width: 150px;
+  width: 150px !important;
 }
 
 
