@@ -117,7 +117,7 @@ height: 45px;
 }
 
 #country{
-  width: 250px;
+  width: 255px;
   height: 50px;
 }
 
@@ -128,7 +128,7 @@ height: 45px;
 #signUp{
   padding: 20px 45px 20px 45px;
   color: white;
-  background-color: orange;
+  background-color: #ff5b20;
 }
 /*  end of Div/Section 7 */
 
