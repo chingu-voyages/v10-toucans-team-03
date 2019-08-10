@@ -89,6 +89,29 @@ height: 45px;
 
 
 
+/* Div/Section 5 */
+.five{
+  text-align: center;
+  padding: 115px 0px 115px 0px;
+  height:35em;
+  background-image: url("https://wallpapersite.com/images/pages/pic_w/9683.jpg");
+  background-repeat: no-repeat; /*Parallax effect*/
+  background-attachment: fixed; /*Parallax effect*/
+  background-position: center; /*Parallax effect*/
+}
+
+.five h1,h5{
+  padding: 25px;
+  color: ghostwhite;
+}
+
+.five .btn{
+  font-weight:bold;
+  border: solid;
+}
+/* end of Div/Section 5 */
+
+
 
 
 /* Div/Section 7 */
