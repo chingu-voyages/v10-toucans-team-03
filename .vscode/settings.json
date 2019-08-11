@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#432709",
+        "titleBar.activeBackground": "#5E360D",
+        "titleBar.activeForeground": "#FEF9F5"
+    },
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on"
+}
