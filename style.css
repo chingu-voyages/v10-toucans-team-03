@@ -111,6 +111,65 @@ height: 45px;
 
 
 
+/* Div/Section 5 */
+.five{
+  text-align: center;
+  padding: 115px 0px 115px 0px;
+  height:35em;
+  background-image: url("https://wallpapersite.com/images/pages/pic_w/9683.jpg");
+  background-repeat: no-repeat; /*Parallax effect*/
+  background-attachment: fixed; /*Parallax effect*/
+  background-position: center; /*Parallax effect*/
+}
+
+.five h1,h5{
+  padding: 25px;
+  color: ghostwhite;
+}
+
+.five .btn{
+  font-weight:bold;
+  border: solid;
+}
+/* end of Div/Section 5 */
+
+
+/* Div/Section 7 */
+.seven{
+  padding:65px 55px 135px 55px;
+  background-color: #6DC096;
+  /*background-image:url("");*/
+}
+.seven h3{
+  padding:20px;
+  font-weight:bold;  
+}
+.seven h4{
+  padding:25px;
+}
+#email{
+  padding: 0px 0px 25px;
+}
+#birthdate{
+  width: 250px;
+  padding:10px;
+}
+#country{
+  width: 255px;
+  height: 50px;
+}
+.checkbox{
+  padding: 45px;
+}
+#signUp{
+  padding: 20px 45px 20px 45px;
+  color: white;
+  background-color: #ff5b20;
+}
+/*  end of Div/Section 7 */
+
+
+
 /*  Footer section */
 
 /*  Top Footer */
@@ -164,7 +223,7 @@ height: 45px;
 
 /* Dropdown/Select */
 .custom-select{
-  width: 200px;
+  width: 145px !important;
 }
 
 
