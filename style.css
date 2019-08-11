@@ -22,12 +22,32 @@ height: 45px;
 }
 
 /* end of Top Nav */
-/* Featured News Cards */
-.featured_news  {
-  background-color: #131212;
+
+/* Parallax image*/
+#plx {
+  /* The image used */
+  background-image: url(../img/jack-pilot.jpeg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.heading_fn {
+
+/* Featured News Cards */
+
+
+.fn {
   text-align: center;
+  font-family: Helvetica Neue;
+  letter-spacing: .38px;
+  font-weight: 900;
+  color: #f3f3f5;
+  text-transform: uppercase;
   
 }
 .container {
@@ -49,7 +69,9 @@ height: 45px;
   letter-spacing: .38px;
   font-weight: 900;
   color: #f3f3f5;
-  
+  }
+.row  {
+  background-blend-mode: inherit;
 }
 /* End of Featured News Card*/
 
