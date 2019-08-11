@@ -22,12 +22,32 @@ height: 45px;
 }
 
 /* end of Top Nav */
-/* Featured News Cards */
-.featured_news  {
-  background-color: #131212;
+
+/* Parallax image*/
+#plx {
+  /* The image used */
+  background-image: url(../img/jack-pilot.jpeg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.heading_fn {
+
+/* Featured News Cards */
+
+
+.fn {
   text-align: center;
+  font-family: Helvetica Neue;
+  letter-spacing: .38px;
+  font-weight: 900;
+  color: #f3f3f5;
+  text-transform: uppercase;
   
 }
 .container {
@@ -49,7 +69,9 @@ height: 45px;
   letter-spacing: .38px;
   font-weight: 900;
   color: #f3f3f5;
-  
+  }
+.row  {
+  background-blend-mode: inherit;
 }
 /* End of Featured News Card*/
 
@@ -88,7 +110,6 @@ height: 45px;
 /* end of Div/Section 3 */
 
 
-
 /* Div/Section 5 */
 .five{
   text-align: center;
@@ -112,42 +133,33 @@ height: 45px;
 /* end of Div/Section 5 */
 
 
-
-
 /* Div/Section 7 */
 .seven{
   padding:65px 55px 135px 55px;
   background-color: #6DC096;
   /*background-image:url("");*/
 }
-
 .seven h3{
   padding:20px;
   font-weight:bold;  
 }
-
 .seven h4{
   padding:25px;
 }
-
 #email{
   padding: 0px 0px 25px;
 }
-
 #birthdate{
   width: 250px;
   padding:10px;
 }
-
 #country{
   width: 255px;
   height: 50px;
 }
-
 .checkbox{
   padding: 45px;
 }
-
 #signUp{
   padding: 20px 45px 20px 45px;
   color: white;
