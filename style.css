@@ -213,12 +213,33 @@ height: 45px;
 /* end of Div/Section 5 */
 
 
+/* Div/Section 6 */
+.six{
+  padding: 7em;
+  background-image:url("https://wallpapersite.com/images/pages/pic_w/9683.jpg");
+  background-repeat: no-repeat; /*Parallax effect*/
+  background-attachment: fixed; /*Parallax effect*/
+  background-position: center; /*Parallax effect*/
+  color:ghostwhite;
+}
+
+.six h1,h3{
+  padding: 0px 15px 25px 0px;
+}
+
+.six .btn{
+ border: solid orange;
+ background-color: orange; 
+ color: white;   
+}
+
+/* end of Div/Section 6 */
+
 
 /* Div/Section 7 */
 .seven{
   padding:65px 55px 135px 55px;
   background-color: #6DC096;
-  /*background-image:url("");*/
 }
 .seven h3{
   padding:20px;
