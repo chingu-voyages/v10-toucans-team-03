@@ -158,6 +158,36 @@ height: 45px;
 
 /* end of Div/Section 3 */
 
+/* Div/Section 4 */
+.four{
+  padding: 25px 0px 25px 0px;
+  background-image:url("https://stmed.net/sites/default/files/titanfall-2-hd-wallpapers-33821-4398900.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.four h1{
+  font-size: 4em;
+  padding: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.four h4{
+  padding: 20px;
+  color: white;
+  margin:10px;
+}
+
+.four .buttons{
+  padding: 5px 15px;
+  margin:50px;
+}
+
+#one,#two{
+ margin:20px; 
+}
+/* end of Div/Section 4 */
 
 
 /* Div/Section 5 */
@@ -181,6 +211,7 @@ height: 45px;
   border: solid;
 }
 /* end of Div/Section 5 */
+
 
 
 /* Div/Section 7 */
