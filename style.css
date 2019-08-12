@@ -23,6 +23,32 @@ height: 45px;
 
 /* end of Top Nav */
 
+
+/* Main Nav */
+
+.img-logo{
+  height: 155px;
+}
+
+#mainNav{
+  /* Sticky bar effect */
+  position: sticky;
+top:0;
+
+  height: 95px;
+ opacity:0.87;
+}
+
+
+#mainNav ul li{
+  font-size:20px;
+  padding: 15px;
+  color: white;
+}
+
+/* end of Main Nav*/
+
+
 /* Parallax image*/
 #plx {
   /* The image used */
