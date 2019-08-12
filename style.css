@@ -49,6 +49,26 @@ top:0;
 /* end of Main Nav*/
 
 
+/* Div/Section 1 */
+.one{
+  text-align: center;
+  padding: 90px;
+  background-image:url("https://stmed.net/sites/default/files/titanfall-2-hd-wallpapers-33821-2256143.jpg");
+  background-repeat: no-repeat; 
+  background-position: center;
+  height: 40em;
+}
+
+.one h1{
+  font-weight: bold;
+  color: slategray;
+  font-size: 4em;
+  padding: 65px; 
+}
+
+/* end of Div/Section 1 */
+
+
 /* Parallax image*/
 #plx {
   /* The image used */
