@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3b8ea87d84.js"></script> 
 </head>
 <body>
@@ -40,23 +41,46 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
     <ul class="navbar-nav ">
+
     <!-- Menu toggle  -->    
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fcfcfc;">
-          MENU
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Features</a>
-          <a class="dropdown-item" href="#">Single Player</a>
-          <a class="dropdown-item" href="#">Multiplayer</a>
-          <a class="dropdown-item" href="#">Tips</a>
-          <a class="dropdown-item">News</a>
-          <a class="dropdown-item">Forums</a>
-          <a class="dropdown-item">BUY</a>
-        </div>
-      </li>
+      <!-- Menu toggle  -->
+ <li class="nav-item dropdown">
+        <a class="nav-link main nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fcfcfc;">
+        MENU</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class=" dropdown-item" href="https://www.ea.com/games/titanfall/titanfall-2/features">FEATURES</a>
+                </li>  
+                <li class="nav-item">
+                  <a class=" dropdown-item" href="https://www.ea.com/games/titanfall/titanfall-2/features/single-player">SINGLE PLAYER</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" dropdown-item" href="https://www.ea.com/games/titanfall/titanfall-2/features/multiplayer">MULTIPLAYER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="dropdown-item" href="https://www.ea.com/games/titanfall/titanfall-2/tips">TIPS</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="dropdown-item" href="https://www.ea.com/games/titanfall/titanfall-2/news">NEWS</a>
+                </li>
+                <li class="nav-item" >
+                 <a class=" dropdown-item" href="http://forums.titanfall.com/">FORUMS</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" dropdown-item" href="https://www.ea.com/games/titanfall/titanfall-2/buy">BUY</a>
+                </li>    
+              </ul>
+              </div>
+              <!-- end of Menu list  -->   
+      
      <!-- end of Menu toggle  -->
       
       <li class="nav-item">
@@ -435,6 +459,8 @@
 
 
 <!-- Scripts  -->
+
+<script src="script.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
