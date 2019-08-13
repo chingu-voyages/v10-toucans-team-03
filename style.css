@@ -97,7 +97,8 @@ height: 45px;
   font-weight: 900;
   color: #f3f3f5;
   text-transform: uppercase;
-  
+  margin-left:40px;
+  margin-right:-20px;
 }
 .container {
   margin: 0;
@@ -122,6 +123,12 @@ height: 45px;
 .row  {
   background-blend-mode: inherit;
 }
+
+z.col-12 {
+  margin-left:40px;
+  margin-right:-20px;
+}
+ 
 /* End of Featured News Card*/
 
 
