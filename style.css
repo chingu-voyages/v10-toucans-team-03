@@ -88,7 +88,10 @@ height: 45px;
 }
 
 /* Featured News Cards */
-
+.col-12 {
+  margin-left:40px;
+  margin-right:-20px;
+}
 
 .fn {
   text-align: center;
@@ -123,12 +126,6 @@ height: 45px;
 .row  {
   background-blend-mode: inherit;
 }
-
-z.col-12 {
-  margin-left:40px;
-  margin-right:-20px;
-}
- 
 /* End of Featured News Card*/
 
 
